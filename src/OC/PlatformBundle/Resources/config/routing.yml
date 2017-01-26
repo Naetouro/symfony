@@ -1,0 +1,13 @@
+oc_platform_homepage:
+    path:     /
+    defaults: { _controller: OCPlatformBundle:Default:index }
+
+# app/Resources/config/routing.yml
+
+hello_the_world:
+    path: /hello-world
+    defaults: { _controller: OCPlatformBundle:Advert:index }
+
+test:
+    path: /testsnip
+    defaults: { _controller: OCPlatformBundle:Advert:index }
